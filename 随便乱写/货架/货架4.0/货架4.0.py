@@ -1,5 +1,5 @@
 # -*coding=utf-8*-
-#货架扫码4.0
+#货架扫码
 #By:王大融
 import sys
 import webbrowser
@@ -52,7 +52,7 @@ def 访问网页(url):
     time.sleep(5)
     os.system('taskkill /F /IM {}'.format(name))
 def welcome():
-    print("\n{:-^50}".format("<智慧货架刷扫码量V3.0,By:咸鱼网友>"))
+    print("\n{:-^50}".format("<智慧货架刷扫码量,By:咸鱼网友>"))
     print("使用说明：")
     print("选择含有二维码的图片，输入需要刷的次数，回车即可\n")
 def getFile_Path():
