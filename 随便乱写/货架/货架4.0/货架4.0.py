@@ -1,6 +1,6 @@
 # -*coding=utf-8*-
 #货架扫码
-#By:王大融
+#By:咸鱼网友
 import sys
 import webbrowser
 import os
